@@ -245,5 +245,5 @@ ModelManifest.xml
 .fake/
 
 # libraries
-pixelart/external/
+pixelart/external/*
 external/
