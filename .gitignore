@@ -244,4 +244,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-external/
+# libraries
+pixelart/external/*
