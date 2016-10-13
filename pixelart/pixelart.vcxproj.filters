@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+    <ClCompile Include="visual_unit.cpp">
+      <Filter>visual_unit</Filter>
+    </ClCompile>
+    <ClCompile Include="color_set.cpp">
+      <Filter>color_set</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelart.cpp">
+      <Filter>pixelart</Filter>
+    </ClCompile>
+    <ClCompile Include="cie76_algorithm.cpp">
+      <Filter>cie76_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="color_set_factory.cpp">
+      <Filter>color_set_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelart_thread.cpp">
+      <Filter>pixelart_thread</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="application">
+      <UniqueIdentifier>{dd5a317c-e817-40d8-8e69-3e73e1b3df99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visual_unit">
+      <UniqueIdentifier>{3d15de1c-faa1-4d68-b286-d3c9bd22b894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color_set">
+      <UniqueIdentifier>{79f9526d-c766-40f0-9097-8d5230f6f8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pixelart">
+      <UniqueIdentifier>{abc11729-907b-42e8-94f0-ec498324321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color_set_factory">
+      <UniqueIdentifier>{a9d0c275-6293-4c93-89dd-b808a10d45d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cie76_algorithm">
+      <UniqueIdentifier>{402fa0ba-9b2c-4ac3-bb9d-d7755b54fa76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pixelart_thread">
+      <UniqueIdentifier>{1ef952e6-a2db-4700-a12d-ec12c84da8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{03470652-6647-403f-a34b-03f6a873a8ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="visual_unit.h">
+      <Filter>visual_unit</Filter>
+    </ClInclude>
+    <ClInclude Include="color_set.h">
+      <Filter>color_set</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelart.h">
+      <Filter>pixelart</Filter>
+    </ClInclude>
+    <ClInclude Include="cie76_algorithm.h">
+      <Filter>cie76_algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="color_set_factory.h">
+      <Filter>color_set_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelart_thread.h">
+      <Filter>pixelart_thread</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
