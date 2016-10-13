@@ -17,10 +17,12 @@ application::application()
 
 application::application(int argc, char ** argv)
 {
+
 }
 
 application::~application()
 {
+
 }
 
 double diff_algorithm(color source_color, color sample_color)
