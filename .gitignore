@@ -245,5 +245,4 @@ ModelManifest.xml
 .fake/
 
 # libraries
-pixelart/external/*
-external/
+pixelart/external/opencv/
